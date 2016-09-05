@@ -1,0 +1,10 @@
+{
+	"includes/MSGN/*.php": {
+		"type": "plugin",
+		"test": "tests/MSGN/%sTest.php"
+	},
+	"tests/MSGN/*Test.php": {
+		"type": "test",
+		"alternate": "includes/MSGN/%s.php"
+	}
+}

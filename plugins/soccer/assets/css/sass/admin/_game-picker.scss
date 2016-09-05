@@ -1,0 +1,77 @@
+.game-picker {
+
+	.game-select {
+		.game-picker-label {
+			padding-top: .7rem;
+		}
+		select {
+			width: 100%;
+		}
+	}
+
+	.selects {
+		margin-bottom: 1rem;
+	}
+
+	.games {
+		margin-bottom: 1rem;
+	}
+
+	.game-picker-button {
+		margin-bottom: 1rem;
+	}
+
+	.game-picks {
+		font-size: 12px;
+		margin-bottom: 1rem;
+		margin-left: 14px;
+		overflow: auto;
+
+		div {
+			cursor: default;
+			display: block;
+			float: left;
+			font-size: 13px;
+			line-height: 1.8em;
+			margin-right: 25px;
+			max-width: 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+
+			a {
+				cursor: pointer;
+				display: block;
+				float: left;
+				height: 20px;
+				margin: 1px 0 0 -17px;
+				overflow: hidden;
+				position: absolute;
+				text-indent: 0;
+				width: 20px;
+
+				&:before {
+					background: none;
+					color: #b4b9be;
+					content: '\f153';
+					display: block;
+					font: normal 16px/20px dashicons;
+					-webkit-font-smoothing: antialiased;
+					height: 20px;
+					speak: none;
+					text-align: center;
+					width: 20px;
+				}
+
+				&:hover:before {
+					color: #cc0000;
+				}
+			}
+
+			span {
+				&:before {
+					content: '\00a0';
+				}
+			}
+		}
+	}
+}

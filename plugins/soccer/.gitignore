@@ -1,0 +1,9 @@
+node_modules
+release
+vendor
+phpunit.xml
+.idea
+tmp
+.~lock*
+nbproject/
+config.local.php
